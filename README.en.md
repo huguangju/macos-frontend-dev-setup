@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img9.doubanio.com/view/photo/l/public/p2913765525.webp" alt="MacDevKit Logo" width="200">
+  <img src="docs/brand.webp" alt="MacDevKit Logo" width="200">
 </p>
 
 <p align="center">
