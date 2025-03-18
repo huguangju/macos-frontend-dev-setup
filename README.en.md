@@ -27,7 +27,7 @@
   <img src="https://img.shields.io/badge/macOS-Monterey%20|%20Ventura%20|%20Sonoma-blue" alt="macOS">
 </p>
 
-*[中文文档](README.md) | English*
+_[中文文档](README.md) | English_
 
 ---
 
@@ -49,25 +49,16 @@ MacDevKit is a comprehensive macOS development environment setup toolkit designe
 
 ## 🔧 Installation
 
-Download and run MacDevKit with just one command:
+Download init.sh and run MacDevKit:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/jarvislin94/MacDevKit/main/init.sh | bash
-```
-
-Alternatively, you can download the script first and then run it:
-
-```bash
-# Clone the repository
-git clone https://github.com/jarvislin94/MacDevKit.git
-
-# Navigate to the directory
-cd MacDevKit
+# Download the script
+curl -fsSL https://raw.githubusercontent.com/jarvislin94/MacDevKit/main/init.sh -o init.sh
 
 # Make the script executable
 chmod +x init.sh
 
-# Run the script
+# Run the script directly to ensure interactive commands work properly
 ./init.sh
 ```
 
@@ -88,32 +79,38 @@ The script displays colorful output, clearly indicating current progress and suc
 MacDevKit includes the following development tools and applications:
 
 ### Basic Tools
+
 - **Homebrew** - macOS package manager
 - **Git** - Version control system
 - **Xcode Command Line Tools** - Basic development tools
 
 ### Development Environment
+
 - **Visual Studio Code** - Code editor with common extensions
 - **iTerm2** - Terminal emulator
 - **Oh My Zsh** - Zsh configuration framework with Powerlevel10k theme and plugins
 - **Docker** - Containerization platform
 
 ### Programming Languages and Runtimes
+
 - **Node.js** (via NVM) - JavaScript runtime
 - **Python** - Programming language
 - **Go** - Programming language
 - **Rust** - Programming language
 
 ### Database Tools
+
 - **PostgreSQL** - Relational database
 - **MySQL** - Relational database
 - **SQLite** - Lightweight database
 
 ### Cloud Tools
+
 - **AWS CLI** - Amazon Web Services command-line tool
 - **Terraform** - Infrastructure as code tool
 
 ### Command Line Tools
+
 - **jq** - JSON processor
 - **ripgrep** - Fast search tool
 - **fd** - Fast find tool
@@ -125,6 +122,7 @@ MacDevKit includes the following development tools and applications:
 - And more...
 
 ### Optional Applications
+
 - **Google Chrome** - Web browser
 - **Firefox** - Web browser
 - **Slack** - Team collaboration tool

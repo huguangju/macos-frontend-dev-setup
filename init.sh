@@ -59,13 +59,28 @@ confirm_step() {
 
 # Welcome message
 clear
-echo -e "${GREEN}=================================${NC}"
-echo -e "${GREEN}        MacDevKit Setup         ${NC}"
-echo -e "${GREEN}=================================${NC}"
-echo -e "This script will set up your Mac for development work."
-echo -e "It will install common developer tools and configure your environment."
-echo -e "Each step will be explained and you can choose to proceed or skip."
-echo -e "\n${YELLOW}Press Enter to continue or Ctrl+C to abort.${NC}"
+cat << "EOF"
+    __  ___          ____             __ __ _ __ 
+   /  |/  /___ _____/ __ \___ _   __/ //_/(_) /_
+  / /|_/ / __ `/ __/ / / / _ \ | / / ,<  / / __/
+ / /  / / /_/ / /_/ /_/ /  __/ |/ / /| |/ / /_  
+/_/  /_/\__,_/\__/_____/\___/|___/_/ |_/_/\__/  
+                                                 
+EOF
+
+echo -e "${YELLOW}Welcome to MacDevKit - Your Ultimate macOS Development Environment Setup Tool${NC}"
+echo
+echo -e "${CYAN}This script will help you:${NC}"
+echo -e "  ${GREEN}✓${NC} Install essential developer tools"
+echo -e "  ${GREEN}✓${NC} Configure your development environment"
+echo -e "  ${GREEN}✓${NC} Set up programming languages and frameworks"
+echo -e "  ${GREEN}✓${NC} Install useful applications"
+echo -e "  ${GREEN}✓${NC} Optimize your macOS settings"
+echo
+echo -e "${YELLOW}Each step will be explained and you can choose to proceed or skip.${NC}"
+echo -e "${RED}Note: You may be asked for your password for some operations.${NC}"
+echo
+echo -e "${CYAN}Press Enter to begin your setup journey or Ctrl+C to exit...${NC}"
 read -r
 
 # Step 1: Install Xcode Command Line Tools

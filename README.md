@@ -27,7 +27,7 @@
   <img src="https://img.shields.io/badge/macOS-Monterey%20|%20Ventura%20|%20Sonoma-blue" alt="macOS">
 </p>
 
-*中文 | [English](README.en.md)*
+_中文 | [English](README.en.md)_
 
 ---
 
@@ -49,26 +49,18 @@ MacDevKit 是一个全面的 macOS 开发环境配置工具包，专为开发者
 
 ## 🔧 安装
 
-只需一行命令即可下载并运行 MacDevKit：
+下载 init.sh 到本机并运行 MacDevKit：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/jarvislin94/MacDevKit/main/init.sh | bash
-```
+# 下载脚本到本地
+curl -fsSL https://raw.githubusercontent.com/jarvislin94/MacDevKit/main/init.sh -o init.sh
 
-或者，您也可以先下载脚本，然后再运行：
-
-```bash
-# 克隆仓库
-git clone https://github.com/jarvislin94/MacDevKit.git
-
-# 进入目录
-cd MacDevKit
-
-# 赋予执行权限
+# 给脚本赋予执行权限
 chmod +x init.sh
 
-# 运行脚本
+# 直接执行脚本，这样可以确保交互式命令可以正常工作
 ./init.sh
+
 ```
 
 ## 📖 使用方法
@@ -88,32 +80,38 @@ chmod +x init.sh
 MacDevKit 包含以下开发工具和应用程序：
 
 ### 基础工具
+
 - **Homebrew** - macOS 包管理器
 - **Git** - 版本控制系统
 - **Xcode Command Line Tools** - 基本开发工具
 
 ### 开发环境
+
 - **Visual Studio Code** - 代码编辑器，包含常用扩展
 - **iTerm2** - 终端模拟器
 - **Oh My Zsh** - Zsh 配置框架，包含 Powerlevel10k 主题和插件
 - **Docker** - 容器化平台
 
 ### 编程语言和运行时
+
 - **Node.js** (通过 NVM) - JavaScript 运行时
 - **Python** - 编程语言
 - **Go** - 编程语言
 - **Rust** - 编程语言
 
 ### 数据库工具
+
 - **PostgreSQL** - 关系型数据库
 - **MySQL** - 关系型数据库
 - **SQLite** - 轻量级数据库
 
 ### 云工具
+
 - **AWS CLI** - Amazon Web Services 命令行工具
 - **Terraform** - 基础设施即代码工具
 
 ### 命令行工具
+
 - **jq** - JSON 处理器
 - **ripgrep** - 快速搜索工具
 - **fd** - 快速查找工具
@@ -125,6 +123,7 @@ MacDevKit 包含以下开发工具和应用程序：
 - 以及更多...
 
 ### 可选应用程序
+
 - **Google Chrome** - 网络浏览器
 - **Firefox** - 网络浏览器
 - **Slack** - 团队协作工具
