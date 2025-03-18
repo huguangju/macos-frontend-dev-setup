@@ -1,7 +1,9 @@
-# 🚀 MacDevKit
+<p align="center">
+  <h1 align="center">🚀 MacDevKit</h1>
+</p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/12573233/236685567-5b4c9ae5-f222-4fdb-b1bf-b536d2cc0c0c.png" alt="MacDevKit Logo" width="200">
+  <img src="https://img9.doubanio.com/view/photo/l/public/p2913765525.webp" alt="MacDevKit Logo" width="200">
 </p>
 
 <p align="center">
