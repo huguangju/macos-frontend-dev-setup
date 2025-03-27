@@ -1,2 +1,0 @@
-cargo:rerun-if-changed=init_wrapper.sh
-cargo:warning=MacDevKit requires init.sh to be present at runtime.
