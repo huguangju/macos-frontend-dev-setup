@@ -1,0 +1,2 @@
+cargo:rerun-if-changed=init_wrapper.sh
+cargo:rerun-if-changed=../init.sh

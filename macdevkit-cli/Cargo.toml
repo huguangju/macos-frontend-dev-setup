@@ -1,0 +1,19 @@
+[package]
+name = "macdevkit-cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["jarvislin94"]
+description = "A Rust CLI wrapper for MacDevKit setup script"
+license = "MIT"
+repository = "https://github.com/jarvislin94/MacDevKit"
+documentation = "https://github.com/jarvislin94/MacDevKit/tree/main/macdevkit-cli"
+readme = "README.md"
+keywords = ["macos", "setup", "devtools", "cli"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+colored = "2.0"
+dialoguer = "0.11"
+indicatif = "0.17"
+which = "5.0" 
