@@ -1,0 +1,18 @@
+# Rust build artifacts
+/target/
+**/target/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Dependencies
+/node_modules/ 
