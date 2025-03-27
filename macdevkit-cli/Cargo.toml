@@ -1,6 +1,6 @@
 [package]
 name = "macdevkit-cli"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["jarvislin94"]
 description = "A Rust CLI wrapper for MacDevKit setup script"
@@ -10,6 +10,13 @@ documentation = "https://github.com/jarvislin94/MacDevKit/tree/main/macdevkit-cl
 readme = "README.md"
 keywords = ["macos", "setup", "devtools", "cli"]
 categories = ["command-line-utilities"]
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+    "README.md",
+    "init_wrapper.sh",
+    "init.sh"
+]
 
 [dependencies]
 clap = { version = "4.4", features = ["derive"] }
