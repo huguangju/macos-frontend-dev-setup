@@ -44,6 +44,14 @@ MacDevKit is a comprehensive macOS development environment setup toolkit designe
 - 🎛️ **Interactive Options** - Choose which applications and configurations to install
 - 💻 **Support for Intel and Apple Silicon** - Automatically detects and adapts to different Mac chips
 - 🔒 **Secure and Reliable** - Uses official sources and secure installation methods
+- ⚙️ **Developer-Friendly System Settings** - Automatically configures macOS to enhance development experience, including:
+  - Show hidden files in Finder
+  - Display path bar and status bar in Finder windows
+  - Enable key repeat (disable press-and-hold for special characters)
+  - Increase keyboard repeat rate
+  - Disable auto-correct
+  - Enhance security settings
+  - Configure screenshot settings (location and format)
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/12573233/236685568-5b4c9ae5-f222-4fdb-b1bf-b536d2cc0c0d.gif" alt="MacDevKit Demo" width="600">

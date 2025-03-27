@@ -93,6 +93,23 @@ Set up VS Code:
 macdevkit-cli vscode
 ```
 
+Configure macOS settings:
+
+```
+macdevkit-cli macos
+```
+
+This will provide several developer-friendly options for customizing your macOS system:
+
+- Show hidden files in Finder
+- Display path bar in Finder windows
+- Show status bar in Finder
+- Enable key repeat (disable press-and-hold for special characters)
+- Set faster keyboard repeat rate
+- Disable auto-correct
+- Enhance security settings
+- Configure screenshot location and format
+
 Run the full setup:
 
 ```

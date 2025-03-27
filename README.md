@@ -44,6 +44,14 @@ MacDevKit 是一个全面的 macOS 开发环境配置工具包，专为开发者
 - 🎛️ **交互式选项** - 可以选择安装哪些应用程序和配置
 - 💻 **支持 Intel 和 Apple Silicon** - 自动检测并适配不同的 Mac 芯片
 - 🔒 **安全可靠** - 使用官方源和安全的安装方法
+- ⚙️ **开发者友好的系统设置** - 自动配置 macOS 系统，优化开发体验，包括：
+  - 显示 Finder 中的隐藏文件
+  - 在 Finder 窗口显示路径栏和状态栏
+  - 启用按键重复（禁用长按弹出特殊字符）
+  - 增加键盘重复速率
+  - 禁用自动更正
+  - 增强安全设置
+  - 自定义截图设置（位置和格式）
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/12573233/236685568-5b4c9ae5-f222-4fdb-b1bf-b536d2cc0c0d.gif" alt="MacDevKit Demo" width="600">
