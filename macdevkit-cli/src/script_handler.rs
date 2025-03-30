@@ -14,7 +14,7 @@ impl ScriptHandler {
         let primary_path = format!("{}/init_wrapper.sh", env!("OUT_DIR"));
         
         // 记录脚本路径用于调试
-        println!("{}", format!("Script path: {}", primary_path).cyan());
+       // println!("{}", format!("Script path: {}", primary_path).cyan());
         
         ScriptHandler {
             wrapper_script_path: primary_path,
@@ -29,7 +29,7 @@ impl ScriptHandler {
         
         if script_path.exists() {
             // 如果脚本存在，使用脚本
-            println!("{}", format!("Using script: {}", self.wrapper_script_path).cyan());
+       //     println!("{}", format!("Using script: {}", self.wrapper_script_path).cyan());
             
             // 确保脚本是可执行的
             #[cfg(unix)]
@@ -49,7 +49,7 @@ impl ScriptHandler {
             return Ok(output.success());
         } else {
             // 如果脚本不存在，直接在Rust中实现相应功能
-            println!("{}", "Using built-in implementation...".cyan());
+        //    println!("{}", "Using built-in implementation...".cyan());
             return self.handle_section_internally(section);
         }
     }
