@@ -111,14 +111,8 @@ MacDevKit 包含以下开发工具和应用程序：
 
 ### 数据库工具
 
-- **PostgreSQL** - 关系型数据库
 - **MySQL** - 关系型数据库
 - **SQLite** - 轻量级数据库
-
-### 云工具
-
-- **AWS CLI** - Amazon Web Services 命令行工具
-- **Terraform** - 基础设施即代码工具
 
 ### 命令行工具
 
@@ -130,7 +124,22 @@ MacDevKit 包含以下开发工具和应用程序：
 - **htop** - 进程查看器
 - **tmux** - 终端复用器
 - **fzf** - 模糊查找器
+- **z.lua** - 路径自动补全
+- **shellcheck** - shell脚本语法检查
+- **tldr** - 简化的 man 页面
+- **httpie** - HTTP 客户端
+- **gh** - GitHub CLI
+- **cloc** - 代码行数统计
+- **wget** - 文件下载器
+- **tree** - 目录树查看工具
+- **cheatsheet** - 快捷键查看工具
+- **tencent-lemon** - 系统清理工具
+- **localsend** - 局域网文件传输工具
 - 以及更多...
+
+### 文件预览工具
+
+- **QuickLook扩展套件** - 增强文件预览功能(代码高亮、Markdown预览等)
 
 ### 可选应用程序
 
@@ -143,6 +152,20 @@ MacDevKit 包含以下开发工具和应用程序：
 - **Notion** - 笔记和协作工具
 - **Obsidian** - 知识管理工具
 - **Figma** - 设计工具
+- **Charles** - 网络抓包工具
+- **H3** - 开发者工具箱
+- **微信开发者工具** - 微信小程序开发IDE
+- **Cursor** - AI代码编辑器
+- **钉钉** - 企业通讯工具
+- **企业微信** - 企业通讯工具
+- **飞书** - 企业协作工具
+- **腾讯会议** - 视频会议工具
+- **LocalSend** - 局域网文件传输工具
+- **Tencent Lemon** - 系统清理工具
+- **IINA** - 视频播放器
+- **The Unarchiver** - 解压工具
+- **Skim** - PDF阅读器
+- **Squoosh** - 图片压缩工具
 
 ## ⚙️ 自定义
 

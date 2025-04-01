@@ -63,7 +63,7 @@ Download init.sh and run MacDevKit:
 
 ```bash
 # Download the script
-curl -fsSL https://raw.githubusercontent.com/jarvislin94/MacDevKit/main/init.sh -o init.sh
+curl -fsSL https://raw.githubusercontent.com/huguangju/macos-frontend-dev-setup/main/init.sh -o init.sh
 
 # Make the script executable
 chmod +x init.sh
@@ -129,7 +129,21 @@ MacDevKit includes the following development tools and applications:
 - **htop** - Process viewer
 - **tmux** - Terminal multiplexer
 - **fzf** - Fuzzy finder
+- **z.lua** - Path autocompletion
+- **shellcheck** - Shell script syntax checker
+- **tldr** - Simplified man pages
+- **httpie** - HTTP client
+- **gh** - GitHub CLI
+- **cloc** - Code line counter
+- **wget** - File downloader
+- **tree** - Directory tree viewer
+- **cheatsheet** - Shortcut viewer
+- **tencent-lemon** - System cleaner
+- **localsend** - LAN file transfer tool
 - And more...
+
+### File Preview Tools
+- **QuickLook Extensions** - Enhanced file preview (code highlighting, Markdown preview, etc.)
 
 ### Optional Applications
 
@@ -142,6 +156,20 @@ MacDevKit includes the following development tools and applications:
 - **Notion** - Note-taking and collaboration tool
 - **Obsidian** - Knowledge management tool
 - **Figma** - Design tool
+- **Charles** - Network packet analyzer
+- **H3** - Developer toolbox
+- **WeChat DevTools** - WeChat Mini Program IDE
+- **Cursor** - AI-powered code editor
+- **DingTalk** - Enterprise communication tool
+- **WeCom** - Enterprise WeChat
+- **Feishu** - Enterprise collaboration platform
+- **Tencent Meeting** - Video conferencing tool
+- **LocalSend** - Local network file transfer
+- **IINA** - Modern video player
+- **The Unarchiver** - File decompression tool
+- **Skim** - PDF reader
+- **Squoosh** - Image compression tool
+- **Tencent Lemon** - System cleanup tool
 
 ## ⚙️ Customization
 
