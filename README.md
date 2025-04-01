@@ -40,7 +40,7 @@ MacDevKit 是一个全面的 macOS 开发环境配置工具包，专为开发者
 - 🚀 **一键安装** - 一个命令设置所有开发工具和配置
 - 🎨 **美观的界面** - 彩色输出和清晰的进度指示
 - 🔄 **幂等操作** - 可以安全地多次运行，不会重复安装
-- 🔧 **全面的工具集** - 包含前端、后端、移动和云开发所需的所有工具
+- 🔧 **全面的工具集** - 包含前端、后端、移动所需的所有工具
 - 🎛️ **交互式选项** - 可以选择安装哪些应用程序和配置
 - 💻 **支持 Intel 和 Apple Silicon** - 自动检测并适配不同的 Mac 芯片
 - 🔒 **安全可靠** - 使用官方源和安全的安装方法
@@ -63,7 +63,7 @@ MacDevKit 是一个全面的 macOS 开发环境配置工具包，专为开发者
 
 ```bash
 # 下载脚本到本地
-curl -fsSL https://raw.githubusercontent.com/jarvislin94/MacDevKit/main/init.sh -o init.sh
+curl -fsSL https://raw.githubusercontent.com/huguangju/macos-frontend-dev-setup/main/init.sh -o init.sh
 
 # 给脚本赋予执行权限
 chmod +x init.sh
