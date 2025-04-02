@@ -345,9 +345,10 @@ if confirm_step "安装 Oh My Zsh" "Oh My Zsh 是管理 Zsh 配置的框架。�
     else
         sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
         
-        # 安装 Powerlevel10k 主题
-        print_info "正在安装 Powerlevel10k 主题"
-        git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+        # 安装 Spaceship 主题
+        print_info "正在安装 Spaceship 主题"
+        git clone https://github.com/spaceship-prompt/spaceship-prompt.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/spaceship-prompt" --depth=1
+        ln -s "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/spaceship-prompt/spaceship.zsh-theme" "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/spaceship.zsh-theme"
         
         # 安装有用的插件
         print_info "正在安装 zsh-autosuggestions 插件"
@@ -358,7 +359,7 @@ if confirm_step "安装 Oh My Zsh" "Oh My Zsh 是管理 Zsh 配置的框架。�
         
         # 更新 .zshrc
         print_info "正在更新 .zshrc 配置"
-        sed -i '' 's/ZSH_THEME="robbyrussell"/ZSH_THEME="powerlevel10k\/powerlevel10k"/' ~/.zshrc
+        sed -i '' 's/^ZSH_THEME=.*/ZSH_THEME="spaceship"\nSPACESHIP_TIME_SHOW="true"\nSPACESHIP_USER_SHOW="always"\nSPACESHIP_USER_COLOR="212"/' ~/.zshrc
         sed -i '' 's/plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/' ~/.zshrc
         
         print_success "Oh My Zsh 已安装并配置"
